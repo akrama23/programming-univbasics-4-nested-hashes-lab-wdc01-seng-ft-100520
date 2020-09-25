@@ -93,7 +93,8 @@ programmer=	programmer_hash =
         :languages => ["C"]
       }
     }
- 
+ programmer = programmer_hash[:yukihiro_matsumoto][0,1]
+
 end
 
 def changing_alan
