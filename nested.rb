@@ -44,7 +44,7 @@ programmer_hash[:alan_kay][:known_for]
 end
 
 def dennis_ritchies_language
-programmer =  programmer_hash = 
+  programmer_hash = 
  		{
       :grace_hopper => {
         :known_for => "COBOL",
@@ -59,7 +59,7 @@ programmer =  programmer_hash =
         :languages => "C"
       }
     }
-  programmer = programmer_hash[:dennis_ritchie]
+  programmer_hash[:dennis_ritchie]
   
 
 end
