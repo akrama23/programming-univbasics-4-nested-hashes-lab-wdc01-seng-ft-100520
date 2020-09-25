@@ -75,9 +75,7 @@ def adding_matz
 programmer_hash = 
  		{
  		  :yukihiro_matsumoto => {
- 		    
- 		 
- 		    
+ 		   
  		  },
  		  
       :grace_hopper => {
@@ -117,6 +115,7 @@ def changing_alan
         :languages => ["C"]
       }
     }
+  programmer_hash[:alan_kay][:known_for] = "GUI"
 
 end
 
