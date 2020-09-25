@@ -88,8 +88,8 @@ programmer =	programmer_hash =
         :languages => ["C"]
       }
     }
- programmer =  programmer_hash[:yukihiro_matsumoto] = [ {:known_for => "Ruby"}, 
- {:languages => "LISP", "C"}]
+ programmer =  programmer_hash[:yukihiro_matsumoto] = {:known_for => "Ruby", 
+ :languages => ["LISP", "C"]}
 
 end
 
